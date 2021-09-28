@@ -91,14 +91,14 @@ var generatePassword= function(){
         values =uppercase + special
       }
 
-      else if(wantLower==true && wantNumber==true && wantSpecial ==true){
+      else if(wantLower==true && wantNumbers==true && wantSpecial ==true){
         values =special +lowercase +numbers
       } 
       else if(wantLower==true && wantSpecial ==true){
         values = lowercase + special
       } 
-      else if(wantLower==true && number==true){
-        values =number +lowercase
+      else if(wantLower==true && numbers==true){
+        values =numbers +lowercase
       }
 
   
