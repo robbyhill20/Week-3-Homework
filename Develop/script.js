@@ -10,20 +10,11 @@ var wantUpper= true
 var wantSpecial= true 
 var wantNumbers= true
 var password = ""
-var values = [""]
+var values = [""]       
 
 // Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
-}
-
 var generatePassword= function(){
-  characters= 0
-  var pwLength= (prompt("How long would you like your password to be? Please choose a number beetn 8 and 128"))
+var pwLength= (prompt("How long would you like your password to be? Please choose a number beetween 8 and 128"))
   console.log(pwLength)
   if(pwLength < 8){
     return alert("Please choose a higher number")
@@ -112,9 +103,8 @@ var generatePassword= function(){
      
   }  
   console.log(password) 
+  
   document.getElementById("password").value = password
 }
 generateBtn.addEventListener("click",generatePassword)
 
-//stener to generate button
-//generateBtn.addEventListener("click", writePassword)
