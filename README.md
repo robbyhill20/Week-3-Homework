@@ -6,6 +6,7 @@ Week 3 homework
 - In this project I gained a much better grasp of how to utilize javascript and the function aspect. I also feel a lot more comfortable writing for loops after doing this as well. 
 
 ## Installation
- To install download the contents of the robbyhill20/Week-3-Homework repository. You can then open the index.html in your default browser to view the webpage. From there, click the "Generate Password Button. 
+ Go to https://robbyhill20.github.io/Week-3-Homework/ and click the Generate Password Button. You will be prompted with your password criteria. 
+
 ## Usage
 This can be used to generate a random password. 
